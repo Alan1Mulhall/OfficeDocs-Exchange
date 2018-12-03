@@ -14,7 +14,7 @@ description: "You can install or remove add-ins for Outlook for your organizatio
 
 # Install or remove add-ins for Outlook for your organization
 
-You can install or remove add-ins for Outlook for your organization by using the EAC or Exchange Online PowerShell. 
+For Exchange on-premise deployments, you can install or remove add-ins for Outlook for your organization by using the EAC or Exchange Online PowerShell. For Exchange Online customers, please see [Centralized Deployment](https://docs.microsoft.com/en-us/office/dev/add-ins/publish/centralized-deployment) for more details on how to manage add-in deployments via the O365 Admin Portal.
   
 > [!NOTE]
 > By default, after you install an add-in for your organization, the add-in is available for all users in your organization. After installation, you can use the EAC or Exchange Online PowerShell to make the add-in optional or required for your users, and to specify whether you want the add-in to be enabled or disabled. For information about how to change the default settings for an add-in, see [Manage user access to add-ins for Outlook](manage-user-access-to-add-ins.md). To limit availability of add-ins to specific users in your organization, you must use Exchange Online PowerShell. For more information, see [Manage user access to add-ins for Outlook](manage-user-access-to-add-ins.md). 
@@ -45,10 +45,10 @@ For additional management tasks, see [Add-ins for Outlook](add-ins-for-outlook.m
     
 2. Click **New** ![Add Icon](../../media/ITPro_EAC_AddIcon.gif), and then choose the location that you want to install the add-in from.
     
-  - **Add from the Office Store**. At the Office Store, select the app you want to install, and then click **Add**. Apps that work with Outlook Web App are listed under **Add-ins for Office and SharePoint** \> **Outlook**.
+  - **Add from AppSource**. On AppSource, select the app you want to install, and then click **Add**. Apps that work with Outlook Web App are listed under **Add-ins for Office and SharePoint** \> **Outlook**.
     
     > [!NOTE]
-    > Access to the Office Store isn't supported for mailboxes or organizations in specific regions. If you don't see **Add from the Office Store** as an option in the **Exchange admin center** under **Organization** \> **Add-ins** \> **New** ![Add Icon](../../media/ITPro_EAC_AddIcon.gif), you may be able to install an add-in for Outlook from a URL or file location. For more information, contact your service provider. 
+    > Access to AppSource/Office Store isn't supported for mailboxes or organizations in specific regions. If you don't see **Add from the Office Store** as an option in the **Exchange admin center** under **Organization** \> **Add-ins** \> **New** ![Add Icon](../../media/ITPro_EAC_AddIcon.gif), you may be able to install an add-in for Outlook from a URL or file location. For more information, contact your service provider. 
   
   - **Add from URL**. In **URL**, enter the full URL for the add-in manifest file that you want to install.
     
